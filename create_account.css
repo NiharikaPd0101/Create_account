@@ -1,0 +1,126 @@
+body{
+    background-image:url(../img/contact_background.jpg);
+    background-size:cover;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2% 22%;
+    font-size: 17px;
+    color: #fffffd;
+}
+.heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+    border: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="checkbox"]:checked 
+select,
+textarea{
+    width: 80%;
+    padding: 22px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: max-content;
+}
+
+.checkbox label{
+    text-align: center;
+    margin: 20px 0;
+    color:white;
+    text-decoration: solid;
+    font-size: 17px;
+}
+input.large {
+    width: 0.5cm;
+    height: 0.5cm;
+  }
+  input::placeholder{
+      font-size: 22px;
+  }
+  input[type="submit"]{
+    background-color: #32d31da9;
+    color: white;
+    padding: 18px 20px;
+    border:white;
+    border-radius: 5px;
+    cursor:pointer;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-decoration: solid; 
+}
+input[type="submit"]:hover{
+    background-color: #1d9fd379;
+}    
+.checkbox label a{
+    color: white;
+}
+.sign{
+    color: white;
+}
+
+.dash{
+    display: block;
+    position: absolute;
+    width: 9%;
+    background-color: #fffffd;
+    height: 2px;
+}
+
+.dash.d1{
+    margin-top: 10px;
+    margin-left: 72px;
+}
+
+.dash.d2{
+    margin-top: -10px;
+    margin-left: 492px;
+}
+
+i{
+    padding: 16px 32px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+.fa-facebook{
+    margin-left: 7px;
+    background-color: rgba(0, 4, 255, 0.897);
+}
+
+.fa-twitter{
+    background-color: #0fabc0;
+}
+
+.fa-google{
+    background-color: rgb(204, 19, 19);
+}
+
+.icon{
+    text-decoration: none;
+    color: #fffffd;
+}
+
+form{
+    margin: 0 60px;
+    width: 80%;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+form h3{
+    font-size: 18px;
+    padding: 25px 0;
+    font-weight: 300;
+}
